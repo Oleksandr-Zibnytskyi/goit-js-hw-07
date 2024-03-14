@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+.gallery {
+  justify-content: center;
+  display: flex;
+  gap: 24px;
+}
+
+.color {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.button-style {
+  margin-top: 16px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 86px;
+  height: 40px;
+  background: #4e75ff;
+  border: 0px;
+  color: #fff;
+}
+.button-style:hover {
+  background: #6c8cff;
+}
+
+.change-color {
+  border: #4e75ff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 148px;
+  height: 40px;
+  background: #4e75ff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  justify-content: center;
+  margin: 0 auto;
+  display: block;
+}
+
+.text {
+  text-align: center;
+}
+
+.lab-item {
+    display: block;
+}
+
+.login-form {
+  border-radius: 8px;
+  border: solid 1px black;
+  padding: 24px;
+  width: 408px;
+  margin: 100px auto 0;
+}
+
+.style-input {
+  width: 100%;
+    padding: 8px;
+    border: 1px solid #808080;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+.input-style {
+  width: 160px;
+}
+
+
+
+.button-create {
+  border-radius: 8px;
+padding: 8px 16px;
+width: 120px;
+height: 40px;
+background: #4e75ff;
+border: 0;
+font-family: "Montserrat", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
+}
+
+
+.button-destroy {
+  border-radius: 8px;
+padding: 8px 16px;
+width: 120px;
+height: 40px;
+background: #ff4e4e;
+border: 0;
+font-family: "Montserrat", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
+}
+
+
+.container-style {
+
+  border: solid 1px black;
+  border-radius: 8px;
+padding: 32px;
+width: 486px;
+height: 104px;
+background: #f6f6fe;
+gap: 10px;
+}
+
+.container {
+  border: solid 1px black;
+  border-radius: 8px;
+padding: 32px;
+width: 486px;
+height: 160px;
+background: #f6f6fe;
+}
